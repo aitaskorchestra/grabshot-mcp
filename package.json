@@ -1,12 +1,20 @@
 {
   "name": "grabshot-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for GrabShot - capture website screenshots with AI cleanup, device frames, and full-page support",
   "main": "index.js",
   "bin": {
     "grabshot-mcp": "./index.js"
   },
-  "keywords": ["mcp", "screenshot", "api", "grabshot", "website-screenshot", "ai-cleanup", "model-context-protocol"],
+  "keywords": [
+    "mcp",
+    "screenshot",
+    "api",
+    "grabshot",
+    "website-screenshot",
+    "ai-cleanup",
+    "model-context-protocol"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,5 +23,6 @@
   "homepage": "https://grabshot.dev",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
-  }
+  },
+  "mcpName": "io.github.aitaskorchestra/grabshot"
 }
